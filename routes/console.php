@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Artisan;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+Artisan::command('newpost', function(){
+    $this.info("Create New Post");
+})->describe('Create New Post using Artisan ');
